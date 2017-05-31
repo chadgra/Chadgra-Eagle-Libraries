@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.0.0">
+<eagle version="8.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -118,6 +118,54 @@
 <rectangle x1="-3" y1="2" x2="0" y2="5" layer="40"/>
 <rectangle x1="-3" y1="2" x2="0" y2="5" layer="39"/>
 </package>
+<package name="PCA10028">
+<wire x1="-50" y1="32" x2="50" y2="32" width="0.127" layer="21"/>
+<wire x1="50" y1="32" x2="50" y2="-32" width="0.127" layer="21"/>
+<wire x1="50" y1="-32" x2="-50" y2="-32" width="0.127" layer="21"/>
+<wire x1="-50" y1="-32" x2="-50" y2="32" width="0.127" layer="21"/>
+<pad name="P$1" x="-30.48" y="22.86" drill="0.6"/>
+<pad name="P$2" x="-27.94" y="22.86" drill="0.6"/>
+<pad name="P$3" x="-25.4" y="22.86" drill="0.6"/>
+<pad name="P$4" x="-22.86" y="22.86" drill="0.6"/>
+<pad name="P$5" x="-20.32" y="22.86" drill="0.6"/>
+<pad name="P$6" x="-17.78" y="22.86" drill="0.6"/>
+<pad name="P$7" x="-15.24" y="22.86" drill="0.6"/>
+<pad name="P$8" x="-12.7" y="22.86" drill="0.6"/>
+<pad name="P$9" x="-10.16" y="22.86" drill="0.6"/>
+<pad name="P$10" x="-7.62" y="22.86" drill="0.6"/>
+<pad name="P$11" x="-2.54" y="22.86" drill="0.6"/>
+<pad name="P$12" x="0" y="22.86" drill="0.6"/>
+<pad name="P$13" x="2.54" y="22.86" drill="0.6"/>
+<pad name="P$14" x="5.08" y="22.86" drill="0.6"/>
+<pad name="P$15" x="7.62" y="22.86" drill="0.6"/>
+<pad name="P$16" x="10.16" y="22.86" drill="0.6"/>
+<pad name="P$17" x="12.7" y="22.86" drill="0.6"/>
+<pad name="P$18" x="15.24" y="22.86" drill="0.6"/>
+<pad name="P$19" x="20.32" y="22.86" drill="0.6"/>
+<pad name="P$20" x="22.86" y="22.86" drill="0.6"/>
+<pad name="P$21" x="25.4" y="22.86" drill="0.6"/>
+<pad name="P$22" x="27.94" y="22.86" drill="0.6"/>
+<pad name="P$23" x="30.48" y="22.86" drill="0.6"/>
+<pad name="P$24" x="33.02" y="22.86" drill="0.6"/>
+<pad name="P$25" x="35.56" y="22.86" drill="0.6"/>
+<pad name="P$26" x="38.1" y="22.86" drill="0.6"/>
+<pad name="P$27" x="15.24" y="-25.4" drill="0.6"/>
+<pad name="P$28" x="12.7" y="-25.4" drill="0.6"/>
+<pad name="P$29" x="10.16" y="-25.4" drill="0.6"/>
+<pad name="P$30" x="7.62" y="-25.4" drill="0.6"/>
+<pad name="P$31" x="5.08" y="-25.4" drill="0.6"/>
+<pad name="P$32" x="2.54" y="-25.4" drill="0.6"/>
+<pad name="P$33" x="-2.54" y="-25.4" drill="0.6"/>
+<pad name="P$34" x="-5.08" y="-25.4" drill="0.6"/>
+<pad name="P$35" x="-7.62" y="-25.4" drill="0.6"/>
+<pad name="P$36" x="-10.16" y="-25.4" drill="0.6"/>
+<pad name="P$37" x="-12.7" y="-25.4" drill="0.6"/>
+<pad name="P$38" x="-15.24" y="-25.4" drill="0.6"/>
+<pad name="P$39" x="-17.78" y="-25.4" drill="0.6"/>
+<pad name="P$40" x="-20.32" y="-25.4" drill="0.6"/>
+<text x="40.64" y="-27.94" size="1.27" layer="21">&gt;NAME</text>
+<text x="40.64" y="-30.48" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TIWI-UB1">
@@ -166,6 +214,54 @@
 <pin name="GND9" x="7.62" y="-7.62" length="middle" rot="R270"/>
 <text x="-10.16" y="39.116" size="1.778" layer="95">&gt;NAME</text>
 <text x="-10.16" y="35.56" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="PCA10028">
+<wire x1="-38.1" y1="12.7" x2="38.1" y2="12.7" width="0.254" layer="94"/>
+<wire x1="38.1" y1="12.7" x2="38.1" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="38.1" y1="-12.7" x2="-38.1" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-38.1" y1="-12.7" x2="-38.1" y2="12.7" width="0.254" layer="94"/>
+<pin name="P0.07" x="-35.56" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.30" x="-33.02" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.00" x="-30.48" y="17.78" length="middle" rot="R270"/>
+<pin name="GND0" x="-27.94" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.29" x="-25.4" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.28" x="-22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.25" x="-20.32" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.24" x="-17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.23" x="-15.24" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.20" x="-12.7" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.19" x="-7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.18" x="-5.08" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.17" x="-2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.16" x="0" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.15" x="2.54" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.14" x="5.08" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.13" x="7.62" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.12" x="10.16" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.11" x="15.24" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.10" x="17.78" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.09" x="20.32" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.08" x="22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.27" x="25.4" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.26" x="27.94" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.22" x="30.48" y="17.78" length="middle" rot="R270"/>
+<pin name="P0.21" x="33.02" y="17.78" length="middle" rot="R270"/>
+<pin name="VDD0" x="-27.94" y="-17.78" length="middle" rot="R90"/>
+<pin name="VDD1" x="-25.4" y="-17.78" length="middle" rot="R90"/>
+<pin name="RESET" x="-22.86" y="-17.78" length="middle" rot="R90"/>
+<pin name="VDD2" x="-20.32" y="-17.78" length="middle" rot="R90"/>
+<pin name="5V" x="-17.78" y="-17.78" length="middle" rot="R90"/>
+<pin name="GND1" x="-15.24" y="-17.78" length="middle" rot="R90"/>
+<pin name="GND2" x="-12.7" y="-17.78" length="middle" rot="R90"/>
+<pin name="N.C." x="-10.16" y="-17.78" length="middle" rot="R90"/>
+<pin name="P0.01" x="-5.08" y="-17.78" length="middle" rot="R90"/>
+<pin name="P0.02" x="-2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="P0.03" x="0" y="-17.78" length="middle" rot="R90"/>
+<pin name="P0.04" x="2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="P0.05" x="5.08" y="-17.78" length="middle" rot="R90"/>
+<pin name="P0.06" x="7.62" y="-17.78" length="middle" rot="R90"/>
+<text x="20.32" y="-15.24" size="1.778" layer="94">&gt;NAME</text>
+<text x="27.94" y="-10.16" size="1.778" layer="94" rot="R180">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -216,6 +312,61 @@
 <connect gate="G$1" pin="RF_OUT" pad="1"/>
 <connect gate="G$1" pin="SCL" pad="14"/>
 <connect gate="G$1" pin="SDA" pad="15"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PCA10028">
+<description>nRF51 Development Kit - PCA10028</description>
+<gates>
+<gate name="G$1" symbol="PCA10028" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PCA10028">
+<connects>
+<connect gate="G$1" pin="5V" pad="P$36"/>
+<connect gate="G$1" pin="GND0" pad="P$4"/>
+<connect gate="G$1" pin="GND1" pad="P$35"/>
+<connect gate="G$1" pin="GND2" pad="P$34"/>
+<connect gate="G$1" pin="N.C." pad="P$33"/>
+<connect gate="G$1" pin="P0.00" pad="P$3"/>
+<connect gate="G$1" pin="P0.01" pad="P$32"/>
+<connect gate="G$1" pin="P0.02" pad="P$31"/>
+<connect gate="G$1" pin="P0.03" pad="P$30"/>
+<connect gate="G$1" pin="P0.04" pad="P$29"/>
+<connect gate="G$1" pin="P0.05" pad="P$28"/>
+<connect gate="G$1" pin="P0.06" pad="P$27"/>
+<connect gate="G$1" pin="P0.07" pad="P$1"/>
+<connect gate="G$1" pin="P0.08" pad="P$22"/>
+<connect gate="G$1" pin="P0.09" pad="P$21"/>
+<connect gate="G$1" pin="P0.10" pad="P$20"/>
+<connect gate="G$1" pin="P0.11" pad="P$19"/>
+<connect gate="G$1" pin="P0.12" pad="P$18"/>
+<connect gate="G$1" pin="P0.13" pad="P$17"/>
+<connect gate="G$1" pin="P0.14" pad="P$16"/>
+<connect gate="G$1" pin="P0.15" pad="P$15"/>
+<connect gate="G$1" pin="P0.16" pad="P$14"/>
+<connect gate="G$1" pin="P0.17" pad="P$13"/>
+<connect gate="G$1" pin="P0.18" pad="P$12"/>
+<connect gate="G$1" pin="P0.19" pad="P$11"/>
+<connect gate="G$1" pin="P0.20" pad="P$10"/>
+<connect gate="G$1" pin="P0.21" pad="P$26"/>
+<connect gate="G$1" pin="P0.22" pad="P$25"/>
+<connect gate="G$1" pin="P0.23" pad="P$9"/>
+<connect gate="G$1" pin="P0.24" pad="P$8"/>
+<connect gate="G$1" pin="P0.25" pad="P$7"/>
+<connect gate="G$1" pin="P0.26" pad="P$24"/>
+<connect gate="G$1" pin="P0.27" pad="P$23"/>
+<connect gate="G$1" pin="P0.28" pad="P$6"/>
+<connect gate="G$1" pin="P0.29" pad="P$5"/>
+<connect gate="G$1" pin="P0.30" pad="P$2"/>
+<connect gate="G$1" pin="RESET" pad="P$38"/>
+<connect gate="G$1" pin="VDD0" pad="P$40"/>
+<connect gate="G$1" pin="VDD1" pad="P$39"/>
+<connect gate="G$1" pin="VDD2" pad="P$37"/>
 </connects>
 <technologies>
 <technology name=""/>
